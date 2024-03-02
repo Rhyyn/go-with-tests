@@ -2,6 +2,8 @@ package main
 
 import (
 	"fmt"
+
+	"example.com/go-with-tests/time"
 )
 
 const (
@@ -35,4 +37,5 @@ func greetingPreifx(language string) (prefix string) {
 
 func main() {
 	fmt.Println(Hello("world", ""))
+	time.RunAllTimeFunc()
 }
